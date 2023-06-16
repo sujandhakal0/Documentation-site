@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML-CSS Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- .................NAVBAR............ -->
+<nav id="navbar">
+  <header>HTML-CSS Documentation</header>
+  <ul>
+  <li><a href="#introduction" class="nav-link">Introduction</a></li>
+  <li><a href="#html" class="nav-link">HTML (Hypertext Markup Language)</a></li>
+  <li><a href="#html-basics" class="nav-link">HTML (Hypertext Markup Language)</a></li>
+  <li><a href="#css" class="nav-link">CSS (Cascading Style Sheets)</a></li>
+  <li><a href="#responsive-web-design" class="nav-link">Responsive Web Design</a></li>
+  <li><a href="#html-forms" class="nav-link">HTML Forms</a></li>
+  <li><a href="#css-grid-layout" class="nav-link">CSS Grid Layout</a></li>
+  <li><a href="#css-flexbox" class="nav-link">CSS Flexbox</a></li>
+  <li><a href="#conclusion" class="nav-link">Conclusion</a></li>
+</ul> 
+</nav>
+
+
+<!-- .............MAIN................ -->
+  <main id="main-doc">
+
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>HTML and CSS are the foundation of building websites and web applications. HTML is used to structure the content of a web page, while CSS is used to style and layout that content. Together, they provide a powerful toolset for creating beautiful, responsive, and interactive web pages. In this documentation, we will cover several important topics related to HTML and CSS, including their basic syntax, responsive web design, HTML forms, CSS Grid Layout, and CSS Flexbox. We will provide examples and important points for each topic, as well as what you should learn to get started with HTML and CSS.</p>
+    </section>
+
+
+    <section class="main-section" id="html">
+      <header>HTML (Hypertext Markup Language)</header>
+      <p><span>HTML</span> is a markup language used to create web pages. It consists of a series of tags and attributes that define the structure and content of a web page.</p>
+    </section>
+    
+
+
+    <section class="main-section" id="html-basics" >
+      <header>Basic Structure of an HTML Document</header>
+      <p>An <span>HTML document</span> consists of several elements, including the <span>&lt;!DOCTYPE&gt;</span>, <span>&lt;html&gt;</span>, <span>&lt;head&gt;</span>, and <span>&lt;body&gt;</span> tags. The basic structure of an HTML document looks like this:</p>
+
+    <pre>
+    <code type="text/html">
+        &lt;!DOCTYPE html&gt;
+        &lt;html>
+        &lt;head>
+        &lt;title>Page Title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;h1>Heading&lt;h1&gt;
+        &lt;p>Paragraph&lt;p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code>
+    </pre>
+
+    <p class="line">Important points to note:</p>
+    <ul>
+      <li>The <span>&lt;!DOCTYPE html&gt;</span> declaration is used to tell the browser that this is an HTML5 document.
+      </li>
+      <li>The <span>&lt;html&gt;</span> element is the root element of an HTML page.</li>
+      <li>The <span>&lt;head&gt;</span> element contains meta information about the document, such as the title and links to
+        external stylesheets and scripts.</li>
+      <li>The <span>&lt;body&gt;</span> element contains the visible content of the document.</li>
+    </ul>
+
+    <p class="line">What you should learn:</p>
+    <ul>
+      <li>Basic HTML tags and attributes, such as <span>&lt;h1&gt;</span>, <span>&lt;p&gt;</span>, <span>&lt;a&gt;</span>,
+        and <span>href</span>.</li>
+      <li>How to create lists, tables, and forms using HTML tags.</li>
+      <li>How to add images and videos to an HTML document using the <span>&lt;img&gt;</span> and <span>&lt;video&gt;</span>
+        tags.</li>
+      <li>How to use semantic HTML to improve the accessibility and SEO of your web pages.</li>
+    </ul>
+
+    </section>
+    
+
+    <section class="main-section" id="css">
+      <header>CSS (Cascading Style Sheets)</header>
+      <p><span>CSS</span> is a language used to style and layout web pages. It allows you to control the appearance of HTML elements, such as their color, font, size, and position.</p>
+
+
+      <p><span>Basic Syntax</span></p>
+<p>To apply CSS styles to an HTML document, you can use the <span>&lt;style&gt;</span> tag or an external stylesheet. The basic syntax of a CSS rule looks like this:</p>
+    <pre>
+      <code>
+        selector {
+            property: value;
+        }
+        </code>
+      </pre>
+
+      <p>For example, to change the color of all <span>&lt;h1&gt;</span> elements to red, you could use the following CSS rule:</p>
+
+    <pre>
+      <code>
+       h1 {
+          color: red;
+       }
+        </code>
+      </pre>
+
+    <p class="line">Important points to note:</p>
+      <ul>
+      <li><span>CSS selectors</span> are used to target HTML elements based on their tag name, class, ID, or other attributes.</li>
+  <li><span>CSS properties</span> are used to change the appearance of targeted elements, such as their color, font, size, and position.</li>
+  <li><span>CSS values</span> can be specified using keywords, such as <span>red</span> or <span>bold</span>, or using numeric values, such as <span>10px</span> or <span>1em</span>.</li>
+    </ul>
+
+    <p class="line">Important points to note:</p>
+      <ul>
+       <li>Basic CSS selectors, such as tag selectors, class selectors, ID selectors, and attribute selectors.</li>
+      <li>How to use CSS properties to change the appearance of HTML elements, such as color, font-size, background-color, and margin.</li>
+      <li>How to use CSS layout techniques, such as the box model, floats, and flexbox, to control the placement and spacing of HTML elements.</li>
+      <li>How to use CSS animations and transitions to add interactivity and visual effects to your web pages.</li>
+    </ul>
+
+
+
+    </section>
+
+
+    <section class="main-section" id="responsive-web-design">
+      <header>Responsive Web Design</header>
+      <p><span>Responsive web design</span> is a technique used to create web pages that adapt to different screen sizes and devices. It involves using CSS media queries to apply different styles based on the width of the viewport.</p>
+
+        <pre>
+      <code>
+       @media only screen and (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
+}
+        </code>
+      </pre>
+
+  <p class="line">Important points to note:</p>
+  <ul>
+      <li><span>Responsive web design</span> is important for creating web pages that look good on a variety ofdevices, including desktops, laptops, tablets, and smartphones.</li>
+      <li>CSS media queries allow you to apply different styles based on the width of the viewport.</li>
+      <li>You can use CSS frameworks, such as Bootstrap or Foundation, to simplify the process of creating responsive web pages.</li>
+    </ul>
+
+    <p class="line">What you should learn:</p>
+    <ul>
+      <li>How to use CSS media queries to create responsive web pages.</li>
+      <li>How to use CSS frameworks to create responsive web pages more easily.</li>
+      <li>Best practices for designing responsive web pages, such as using fluid layouts, responsive images, and touch-friendly menus.</li>
+    </ul>
+
+    </section>
+
+
+     <section class="main-section" id="html-forms">
+      <header>HTML Forms</header>
+      <p><span>HTML forms</span> are used to collect data from users on a web page. They consist of various input fields, such as text fields, checkboxes, radio buttons, and dropdown menus.</p>
+
+        <pre>
+      <code>
+      &lt;form&gt;
+        &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+        &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+        &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+      &lt;/form&gt;
+        </code>
+      </pre>
+
+  <p class="line">Important points to note:</p>
+  <ul>
+      <li>HTML forms are created using the &lt;form&gt; tag and various form elements, such as &lt;input&gt;, &lt;select&gt;, and &lt;textarea&gt;.</li>
+      <li>Form elements have attributes such as type, name, value, placeholder, and more, that allow you to customize their behavior and appearance.</li>
+      <li>You can use server-side scripting languages, such as PHP or Python, to process form data and send it via email or store it in a database.</li>
+    </ul>
+
+    <p class="line">What you should learn:</p>
+    <ul>
+      <li>How to create various form elements, such as text inputs, radio buttons, checkboxes, and dropdown menus.</li>
+      <li>How to use form attributes, such as required, disabled, and readonly, to validate and control user input.</li>
+      <li>How to use server-side scripting languages to process and handle form data.</li>
+    </ul>
+    </section>
+
+    <section class="main-section" id="css-grid-layout">
+      <header>CSS Grid Layout</header>
+      <p><span>CSS Grid Layout</span> is a powerful layout system that allows you to create complex grid-based layouts with ease. It consists of a series of rows and columns that can be sized and positioned using CSS properties. You can use CSS Grid Layout to create responsive and flexible layouts for your web pages.</p>
+
+        <pre>
+      <code>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+      
+      .item {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+        </code>
+      </pre>
+
+  <p class="line">Important points to note:</p>
+  <ul>
+      <li><span>CSS Grid Layout</span> allows you to create complex, multi-dimensional layouts with ease.</li>
+  <li>You can use various CSS properties, such as <span>grid-template-columns</span>, <span>grid-template-rows</span>, <span>grid-gap</span>, and <span>grid-area</span>, to customize the layout of grid items.</li>
+  <li><span>CSS Grid Layout</span> is supported by all modern browsers.</li>
+    </ul>
+
+    <p class="line">What you should learn:</p>
+    <ul>
+      <li>How to create a basic grid layout using display: grid.</li>
+      <li>How to use CSS properties to customize the size and position of grid items.</li>
+      <li>How to use responsive design techniques, such as media queries and auto-fit/auto-fill, to create flexible and adaptive grid layouts.</li>
+    </ul>
+    </section>
+
+    <section class="main-section" id="css-flexbox">
+      <header>CSS Flexbox</header>
+      <p><span>CSS Flexbox</span> is another layout system that allows you to create flexible and responsive layouts. It consists of a series of flex containers and flex items that can be aligned and positioned using CSS properties. You can use CSS Flexbox to create complex layouts for your web pages, such as navigation menus, card layouts, and more.</p>
+
+        <pre>
+      <code>
+       .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .item {
+          flex: 1;
+          margin: 10px;
+        }
+        </code>
+      </pre>
+
+  <p class="line">Important points to note:</p>
+  <ul>
+      <li><span>CSS Flexbox</span> allows you to create flexible, one-dimensional layouts with ease.</li>
+  <li>You can use various CSS properties, such as <span>display: flex</span>, <span>flex-direction</span>, <span>justify-content</span>, and <span>align-items</span>, to customize the layout of flex items.</li>
+  <li><span>CSS Flexbox</span> is supported by all modern browsers.</li>
+    </ul>
+
+    <p class="line">What you should learn:</p>
+    <ul>
+      <li>How to create a basic flexbox layout using display: flex.</li>
+      <li>How to use CSS properties to customize the size, position, and alignment of flex items.</li>
+      <li>How to use responsive design techniques, such as media queries and flex-wrap, to create flexible and adaptive flexbox layouts.</li>
+    </ul>
+    </section>
+
+    <section class="main-section" id="conclusion">
+      <header>Conclusion</header>
+      <p>HTML and CSS are essential skills for anyone interested in web development. Whether you're building a simple website or a complex web application, understanding the basics of HTML and CSS is fundamental. In this documentation, we've covered several important topics related to HTML and CSS, including their basic syntax, responsive web design, HTML forms, CSS Grid Layout, and CSS Flexbox. We hope that this documentation has provided you with a solid foundation for learning HTML and CSS, and that it helps you create beautiful and functional web pages of your own. Remember, practice makes perfect!<p>
+
+    </section>
+
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,142 @@
+html {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 290px;
+ 
+}
+
+/* .............NAVBAR.............. */
+#navbar{
+ 
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px; 
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+  
+  
+
+#navbar header{
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  padding-top: 14px;
+
+}
+
+.nav-link{
+  
+  text-align: left;
+}
+
+#navbar ul{
+  
+    padding: 0;
+}
+
+#navbar li{
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+  
+    width: 100%;
+    padding: 10px 0;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+ 
+}
+
+/* ...................MAIN................... */
+code{
+  display: block;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 10px 20px;
+  overflow-x: auto;
+}
+
+
+p, li{
+  color: #4d4e53;
+}
+
+.line{
+  color: black;
+  font-weight: bold;
+}
+
+p,ul{
+  margin: 20px;
+}
+
+#main-doc{
+  position: absolute;
+  
+    margin-left: 310px;
+    padding: 20px;
+ 
+}
+
+#main-doc header{
+  font-size: 1.8em;
+  padding-top: 10px;
+}
+span{
+  color: #5d5cde;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    border-right: none;
+  }
+  
+  #navbar li {
+    border-top: 1px solid;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  #navbar header {
+    padding-left: 10px;
+  }
+
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #navbar li {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    margin-top: 150px;
+    padding: 20px;
+  }
+}
