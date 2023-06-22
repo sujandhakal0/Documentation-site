@@ -1,12 +1,12 @@
 # Documentation-site
-Documentation Site
+**Documentation Site**
 This is a documentation site that provides information on various web development topics, including HTML, CSS, and responsive web design.
 live demo: https://moonergone0.github.io/Documentation-site/#responsive-web-design
 
-Getting Started
+**Getting Started**
 To view the documentation site, simply open the index.html file in your web browser. The site is fully static and does not require any server-side setup.
 
-Features
+**Features**
 The documentation site includes the following features:
 
 + A responsive design that adapts to different screen sizes and devices, making it easy to view and navigate on desktops, laptops, tablets, and smartphones.
@@ -17,5 +17,5 @@ The documentation site includes the following features:
 Contributing
 + If you would like to contribute to this documentation site, please feel free to submit a pull request with any changes or additions that you think would be helpful. Contributions are always welcome!
 
-License
+**License**
 This documentation site is licensed under the MIT License. See the license file for more information.
